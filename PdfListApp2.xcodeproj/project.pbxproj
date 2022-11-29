@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D43C42AF2936141100D13622 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42AE2936141100D13622 /* AppDelegate.swift */; };
+		D43C42B12936141100D13622 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42B02936141100D13622 /* SceneDelegate.swift */; };
+		D43C42B32936141100D13622 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42B22936141100D13622 /* ViewController.swift */; };
+		D43C42B62936141100D13622 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43C42B42936141100D13622 /* Main.storyboard */; };
+		D43C42B82936141200D13622 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D43C42B72936141200D13622 /* Assets.xcassets */; };
+		D43C42BB2936141200D13622 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D43C42B92936141200D13622 /* LaunchScreen.storyboard */; };
+		D43C42C62936141200D13622 /* PdfListApp2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42C52936141200D13622 /* PdfListApp2Tests.swift */; };
+		D43C42D02936141200D13622 /* PdfListApp2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42CF2936141200D13622 /* PdfListApp2UITests.swift */; };
+		D43C42D22936141200D13622 /* PdfListApp2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D43C42D12936141200D13622 /* PdfListApp2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D43C42C22936141200D13622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43C42A32936141100D13622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43C42AA2936141100D13622;
+			remoteInfo = PdfListApp2;
+		};
+		D43C42CC2936141200D13622 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D43C42A32936141100D13622 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D43C42AA2936141100D13622;
+			remoteInfo = PdfListApp2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D43C42AB2936141100D13622 /* PdfListApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PdfListApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43C42AE2936141100D13622 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D43C42B02936141100D13622 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D43C42B22936141100D13622 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D43C42B52936141100D13622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D43C42B72936141200D13622 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D43C42BA2936141200D13622 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D43C42BC2936141200D13622 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D43C42C12936141200D13622 /* PdfListApp2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfListApp2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43C42C52936141200D13622 /* PdfListApp2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfListApp2Tests.swift; sourceTree = "<group>"; };
+		D43C42CB2936141200D13622 /* PdfListApp2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PdfListApp2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D43C42CF2936141200D13622 /* PdfListApp2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfListApp2UITests.swift; sourceTree = "<group>"; };
+		D43C42D12936141200D13622 /* PdfListApp2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PdfListApp2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D43C42A82936141100D13622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42BE2936141200D13622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42C82936141200D13622 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D43C42A22936141100D13622 = {
+			isa = PBXGroup;
+			children = (
+				D43C42AD2936141100D13622 /* PdfListApp2 */,
+				D43C42C42936141200D13622 /* PdfListApp2Tests */,
+				D43C42CE2936141200D13622 /* PdfListApp2UITests */,
+				D43C42AC2936141100D13622 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D43C42AC2936141100D13622 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D43C42AB2936141100D13622 /* PdfListApp2.app */,
+				D43C42C12936141200D13622 /* PdfListApp2Tests.xctest */,
+				D43C42CB2936141200D13622 /* PdfListApp2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D43C42AD2936141100D13622 /* PdfListApp2 */ = {
+			isa = PBXGroup;
+			children = (
+				D43C42AE2936141100D13622 /* AppDelegate.swift */,
+				D43C42B02936141100D13622 /* SceneDelegate.swift */,
+				D43C42B22936141100D13622 /* ViewController.swift */,
+				D43C42B42936141100D13622 /* Main.storyboard */,
+				D43C42B72936141200D13622 /* Assets.xcassets */,
+				D43C42B92936141200D13622 /* LaunchScreen.storyboard */,
+				D43C42BC2936141200D13622 /* Info.plist */,
+			);
+			path = PdfListApp2;
+			sourceTree = "<group>";
+		};
+		D43C42C42936141200D13622 /* PdfListApp2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D43C42C52936141200D13622 /* PdfListApp2Tests.swift */,
+			);
+			path = PdfListApp2Tests;
+			sourceTree = "<group>";
+		};
+		D43C42CE2936141200D13622 /* PdfListApp2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D43C42CF2936141200D13622 /* PdfListApp2UITests.swift */,
+				D43C42D12936141200D13622 /* PdfListApp2UITestsLaunchTests.swift */,
+			);
+			path = PdfListApp2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D43C42AA2936141100D13622 /* PdfListApp2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43C42D52936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2" */;
+			buildPhases = (
+				D43C42A72936141100D13622 /* Sources */,
+				D43C42A82936141100D13622 /* Frameworks */,
+				D43C42A92936141100D13622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PdfListApp2;
+			productName = PdfListApp2;
+			productReference = D43C42AB2936141100D13622 /* PdfListApp2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D43C42C02936141200D13622 /* PdfListApp2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43C42D82936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2Tests" */;
+			buildPhases = (
+				D43C42BD2936141200D13622 /* Sources */,
+				D43C42BE2936141200D13622 /* Frameworks */,
+				D43C42BF2936141200D13622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43C42C32936141200D13622 /* PBXTargetDependency */,
+			);
+			name = PdfListApp2Tests;
+			productName = PdfListApp2Tests;
+			productReference = D43C42C12936141200D13622 /* PdfListApp2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D43C42CA2936141200D13622 /* PdfListApp2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D43C42DB2936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2UITests" */;
+			buildPhases = (
+				D43C42C72936141200D13622 /* Sources */,
+				D43C42C82936141200D13622 /* Frameworks */,
+				D43C42C92936141200D13622 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D43C42CD2936141200D13622 /* PBXTargetDependency */,
+			);
+			name = PdfListApp2UITests;
+			productName = PdfListApp2UITests;
+			productReference = D43C42CB2936141200D13622 /* PdfListApp2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D43C42A32936141100D13622 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					D43C42AA2936141100D13622 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					D43C42C02936141200D13622 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D43C42AA2936141100D13622;
+					};
+					D43C42CA2936141200D13622 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = D43C42AA2936141100D13622;
+					};
+				};
+			};
+			buildConfigurationList = D43C42A62936141100D13622 /* Build configuration list for PBXProject "PdfListApp2" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D43C42A22936141100D13622;
+			productRefGroup = D43C42AC2936141100D13622 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D43C42AA2936141100D13622 /* PdfListApp2 */,
+				D43C42C02936141200D13622 /* PdfListApp2Tests */,
+				D43C42CA2936141200D13622 /* PdfListApp2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D43C42A92936141100D13622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43C42BB2936141200D13622 /* LaunchScreen.storyboard in Resources */,
+				D43C42B82936141200D13622 /* Assets.xcassets in Resources */,
+				D43C42B62936141100D13622 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42BF2936141200D13622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42C92936141200D13622 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D43C42A72936141100D13622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43C42B32936141100D13622 /* ViewController.swift in Sources */,
+				D43C42AF2936141100D13622 /* AppDelegate.swift in Sources */,
+				D43C42B12936141100D13622 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42BD2936141200D13622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43C42C62936141200D13622 /* PdfListApp2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D43C42C72936141200D13622 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D43C42D22936141200D13622 /* PdfListApp2UITestsLaunchTests.swift in Sources */,
+				D43C42D02936141200D13622 /* PdfListApp2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D43C42C32936141200D13622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43C42AA2936141100D13622 /* PdfListApp2 */;
+			targetProxy = D43C42C22936141200D13622 /* PBXContainerItemProxy */;
+		};
+		D43C42CD2936141200D13622 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D43C42AA2936141100D13622 /* PdfListApp2 */;
+			targetProxy = D43C42CC2936141200D13622 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D43C42B42936141100D13622 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43C42B52936141100D13622 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D43C42B92936141200D13622 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D43C42BA2936141200D13622 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D43C42D32936141200D13622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D43C42D42936141200D13622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D43C42D62936141200D13622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PdfListApp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D43C42D72936141200D13622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PdfListApp2/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D43C42D92936141200D13622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfListApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PdfListApp2";
+			};
+			name = Debug;
+		};
+		D43C42DA2936141200D13622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PdfListApp2.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/PdfListApp2";
+			};
+			name = Release;
+		};
+		D43C42DC2936141200D13622 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PdfListApp2;
+			};
+			name = Debug;
+		};
+		D43C42DD2936141200D13622 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2VXY726N93;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.melihozturk.PdfListApp2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PdfListApp2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D43C42A62936141100D13622 /* Build configuration list for PBXProject "PdfListApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43C42D32936141200D13622 /* Debug */,
+				D43C42D42936141200D13622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43C42D52936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43C42D62936141200D13622 /* Debug */,
+				D43C42D72936141200D13622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43C42D82936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43C42D92936141200D13622 /* Debug */,
+				D43C42DA2936141200D13622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D43C42DB2936141200D13622 /* Build configuration list for PBXNativeTarget "PdfListApp2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D43C42DC2936141200D13622 /* Debug */,
+				D43C42DD2936141200D13622 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D43C42A32936141100D13622 /* Project object */;
+}
